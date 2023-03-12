@@ -15,6 +15,7 @@
 		E26125A229BDA50E0000BE9C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261259E29BDA50E0000BE9C /* Menu.swift */; };
 		E26125A329BDA50E0000BE9C /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = E261259F29BDA50E0000BE9C /* menu.json */; };
 		E26125A429BDA50E0000BE9C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26125A029BDA50E0000BE9C /* Helper.swift */; };
+		E2A9BDE929BE4955003645F7 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9BDE829BE4955003645F7 /* ItemRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		E261259E29BDA50E0000BE9C /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		E261259F29BDA50E0000BE9C /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		E26125A029BDA50E0000BE9C /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		E2A9BDE829BE4955003645F7 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E2A9BDE529BE341D003645F7 /* Helpers */,
 				E261258F29BDA4690000BE9C /* iDineApp.swift */,
 				E261259129BDA4690000BE9C /* ContentView.swift */,
+				E2A9BDE829BE4955003645F7 /* ItemRowView.swift */,
 				E261259F29BDA50E0000BE9C /* menu.json */,
 				E261259329BDA46A0000BE9C /* Assets.xcassets */,
 				E261259529BDA46A0000BE9C /* Preview Content */,
@@ -168,6 +171,7 @@
 			files = (
 				E26125A129BDA50E0000BE9C /* Order.swift in Sources */,
 				E261259229BDA4690000BE9C /* ContentView.swift in Sources */,
+				E2A9BDE929BE4955003645F7 /* ItemRowView.swift in Sources */,
 				E26125A429BDA50E0000BE9C /* Helper.swift in Sources */,
 				E26125A229BDA50E0000BE9C /* Menu.swift in Sources */,
 				E261259029BDA4690000BE9C /* iDineApp.swift in Sources */,
