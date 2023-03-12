@@ -59,12 +59,11 @@
 		E261258E29BDA4690000BE9C /* iDine */ = {
 			isa = PBXGroup;
 			children = (
+				E2A9BDE429BE340C003645F7 /* Entities */,
+				E2A9BDE529BE341D003645F7 /* Helpers */,
 				E261258F29BDA4690000BE9C /* iDineApp.swift */,
 				E261259129BDA4690000BE9C /* ContentView.swift */,
-				E26125A029BDA50E0000BE9C /* Helper.swift */,
 				E261259F29BDA50E0000BE9C /* menu.json */,
-				E261259E29BDA50E0000BE9C /* Menu.swift */,
-				E261259D29BDA50E0000BE9C /* Order.swift */,
 				E261259329BDA46A0000BE9C /* Assets.xcassets */,
 				E261259529BDA46A0000BE9C /* Preview Content */,
 			);
@@ -77,6 +76,23 @@
 				E261259629BDA46A0000BE9C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2A9BDE429BE340C003645F7 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E261259D29BDA50E0000BE9C /* Order.swift */,
+				E261259E29BDA50E0000BE9C /* Menu.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		E2A9BDE529BE341D003645F7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E26125A029BDA50E0000BE9C /* Helper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
