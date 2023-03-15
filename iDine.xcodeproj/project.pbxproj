@@ -17,6 +17,7 @@
 		E26125A429BDA50E0000BE9C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26125A029BDA50E0000BE9C /* Helper.swift */; };
 		E2A9BDE929BE4955003645F7 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9BDE829BE4955003645F7 /* ItemRowView.swift */; };
 		E2A9BDEB29BE6513003645F7 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9BDEA29BE6513003645F7 /* ItemDetailView.swift */; };
+		E2E6970A29C197D300E0F83F /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E6970929C197D300E0F83F /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		E26125A029BDA50E0000BE9C /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		E2A9BDE829BE4955003645F7 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		E2A9BDEA29BE6513003645F7 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		E2E6970929C197D300E0F83F /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				E261259129BDA4690000BE9C /* ContentView.swift */,
 				E2A9BDE829BE4955003645F7 /* ItemRowView.swift */,
 				E2A9BDEA29BE6513003645F7 /* ItemDetailView.swift */,
+				E2E6970929C197D300E0F83F /* OrderView.swift */,
 				E261259F29BDA50E0000BE9C /* menu.json */,
 				E261259329BDA46A0000BE9C /* Assets.xcassets */,
 				E261259529BDA46A0000BE9C /* Preview Content */,
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E26125A129BDA50E0000BE9C /* Order.swift in Sources */,
+				E2E6970A29C197D300E0F83F /* OrderView.swift in Sources */,
 				E261259229BDA4690000BE9C /* ContentView.swift in Sources */,
 				E2A9BDEB29BE6513003645F7 /* ItemDetailView.swift in Sources */,
 				E2A9BDE929BE4955003645F7 /* ItemRowView.swift in Sources */,
