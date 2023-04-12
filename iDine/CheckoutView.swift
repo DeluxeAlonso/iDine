@@ -11,12 +11,14 @@ struct CheckoutView: View {
     @EnvironmentObject var order: Order
 
     @State private var paymentType = "Cash"
+    @State private var pickupTime = "Now"
     @State private var addLoyaltyDetails = false
     @State private var loyaltyNumber = ""
     @State private var tipAmount = 15
     @State private var showingPaymentAlert = false
     
     private let paymentTypes = ["Cash", "Credit Card", "iDine Points"]
+    private let pickupTimes = ["Now", "Tonight", "Tomorrow"]
     private let tipAmounts = [10, 15, 20, 25, 0]
 
     var totalPrice: String {
@@ -31,6 +33,13 @@ struct CheckoutView: View {
                 Picker("How do you want to pay?", selection: $paymentType) {
                     ForEach(paymentTypes, id: \.self) { type in
                         Text(type)
+                    }
+                }
+            }
+            Section {
+                Picker("Pickup time", selection: $pickupTime) {
+                    ForEach(pickupTimes, id: \.self) { pickupTime in
+                        Text(pickupTime)
                     }
                 }
             }
