@@ -31,7 +31,10 @@ struct ItemDetailView: View {
             Button("Order This!") {
                 order.add(item: item)
             }
-            .buttonStyle(.borderedProminent)
+            .padding()
+            .background(.black)
+            .foregroundColor(.white)
+            .cornerRadius(5.0)
             Spacer()
         }
         .navigationTitle(item.name)
