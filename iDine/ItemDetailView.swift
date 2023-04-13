@@ -10,6 +10,7 @@ import SwiftUI
 struct ItemDetailView: View {
 
     @EnvironmentObject var order: Order
+    @EnvironmentObject var favorites: Favorites
 
     let item: MenuItem
 
@@ -39,6 +40,25 @@ struct ItemDetailView: View {
         }
         .navigationTitle(item.name)
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            Button {
+                if isFavorite {
+                    favorites.remove(item: item)
+                } else {
+                    favorites.add(item: item)
+                }
+            } label: {
+                if isFavorite {
+                    Image(systemName: "heart.fill")
+                } else {
+                    Image(systemName: "heart")
+                }
+            }
+        }
+    }
+
+    private var isFavorite: Bool {
+        favorites.containsItem(with: item.id)
     }
 }
 
