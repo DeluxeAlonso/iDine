@@ -22,12 +22,18 @@ struct MainView: View {
                 .tabItem {
                     Label("Favorites", systemImage: "heart")
                 }
+            TutorialView(factory: TutorialFactory())
+                .tabItem {
+                    Label("Tutorials", systemImage: "book")
+                }
         }
     }
 }
 
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView().environmentObject(Order())
+        MainView()
+            .environmentObject(Order())
+            .environmentObject(Favorites())
     }
 }
