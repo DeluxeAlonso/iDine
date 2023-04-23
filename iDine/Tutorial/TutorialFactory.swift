@@ -20,6 +20,8 @@ struct TutorialFactory: TutorialFactoryProtocol {
 
     private var staticTextSection: TutorialSection {
         let staticLabelsItem = TutorialTopic(title: "How to create static labels with a Text view", content: AnyView(StaticLabelTutorialTopicView()))
-        return TutorialSection(title: "Working with static text", items: [staticLabelsItem])
+        let textStylingItem = TutorialTopic(title: "How to style text views with fonts, colors, line spacing, and more", content: AnyView(TextStylingTutorialTopicView()))
+
+        return TutorialSection(title: "Working with static text", items: [staticLabelsItem, textStylingItem])
     }
 }
