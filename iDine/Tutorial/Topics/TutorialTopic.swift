@@ -18,6 +18,16 @@ struct TutorialTopic: TutorialTopicProtocol, Hashable {
 
     var id: String { title }
 
+    init(title: String, content: AnyView) {
+        self.title = title
+        self.content = content
+    }
+
+    init(title: String, content: some View) {
+        self.title = title
+        self.content = AnyView(content)
+    }
+
     static func == (lhs: TutorialTopic, rhs: TutorialTopic) -> Bool {
         lhs.title == rhs.title
     }

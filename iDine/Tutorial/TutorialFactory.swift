@@ -19,10 +19,12 @@ struct TutorialFactory: TutorialFactoryProtocol {
     }
 
     private var staticTextSection: TutorialSection {
-        let staticLabelsItem = TutorialTopic(title: "How to create static labels with a Text view", content: AnyView(StaticLabelTutorialTopicView()))
-        let textStylingItem = TutorialTopic(title: "How to style text views with fonts, colors, line spacing, and more", content: AnyView(TextStylingTutorialTopicView()))
-        let attributedStringItem = TutorialTopic(title: "How to add advanced text styling using AttributedString", content: AnyView(AttributedStringTutorialTopicView()))
-
-        return TutorialSection(title: "Working with static text", items: [staticLabelsItem, textStylingItem, attributedStringItem])
+        let items: [TutorialTopic] = [
+            TutorialTopic(title: "How to create static labels with a Text view", content: StaticLabelTutorialTopicView()),
+            TutorialTopic(title: "How to style text views with fonts, colors, line spacing, and more", content: TextStylingTutorialTopicView()),
+            TutorialTopic(title: "How to add advanced text styling using AttributedString", content: AttributedStringTutorialTopicView()),
+            TutorialTopic(title: "How to adjust text alignment using multilineTextAlignment()", content: MultilineTextAlignmentTopicView())
+        ]
+        return TutorialSection(title: "Working with static text", items: items)
     }
 }
