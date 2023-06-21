@@ -26,6 +26,7 @@
 		E2B625F029E9BDBF005807E6 /* TutorialTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B625EF29E9BDBF005807E6 /* TutorialTopic.swift */; };
 		E2B625F229E9BED1005807E6 /* StaticLabelTutorialTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B625F129E9BED1005807E6 /* StaticLabelTutorialTopicView.swift */; };
 		E2BDE39E2A2F01E000FA51B0 /* MultilineTextAlignmentTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDE39D2A2F01E000FA51B0 /* MultilineTextAlignmentTopicView.swift */; };
+		E2C07FCD2A42C4B900B4EF9F /* TextViewFormattingTutorialTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C07FCC2A42C4B900B4EF9F /* TextViewFormattingTutorialTopicView.swift */; };
 		E2CD22BA29F4D4CC003A4E69 /* AttributedStringTutorialTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CD22B929F4D4CC003A4E69 /* AttributedStringTutorialTopicView.swift */; };
 		E2D4680A29E7BD0F00BBD14E /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D4680929E7BD0F00BBD14E /* Favorites.swift */; };
 		E2D8583729EBB64100B25E94 /* TextStylingTutorialTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D8583629EBB64100B25E94 /* TextStylingTutorialTopicView.swift */; };
@@ -53,6 +54,7 @@
 		E2B625EF29E9BDBF005807E6 /* TutorialTopic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialTopic.swift; sourceTree = "<group>"; };
 		E2B625F129E9BED1005807E6 /* StaticLabelTutorialTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticLabelTutorialTopicView.swift; sourceTree = "<group>"; };
 		E2BDE39D2A2F01E000FA51B0 /* MultilineTextAlignmentTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextAlignmentTopicView.swift; sourceTree = "<group>"; };
+		E2C07FCC2A42C4B900B4EF9F /* TextViewFormattingTutorialTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewFormattingTutorialTopicView.swift; sourceTree = "<group>"; };
 		E2CD22B929F4D4CC003A4E69 /* AttributedStringTutorialTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedStringTutorialTopicView.swift; sourceTree = "<group>"; };
 		E2D4680929E7BD0F00BBD14E /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 		E2D8583629EBB64100B25E94 /* TextStylingTutorialTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStylingTutorialTopicView.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				E2D8583629EBB64100B25E94 /* TextStylingTutorialTopicView.swift */,
 				E2CD22B929F4D4CC003A4E69 /* AttributedStringTutorialTopicView.swift */,
 				E2BDE39D2A2F01E000FA51B0 /* MultilineTextAlignmentTopicView.swift */,
+				E2C07FCC2A42C4B900B4EF9F /* TextViewFormattingTutorialTopicView.swift */,
 			);
 			path = Topics;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				E26125A129BDA50E0000BE9C /* Order.swift in Sources */,
 				E21AE36629C2D51E00752446 /* MainView.swift in Sources */,
 				E26874C929C83CE20092F94A /* CheckoutView.swift in Sources */,
+				E2C07FCD2A42C4B900B4EF9F /* TextViewFormattingTutorialTopicView.swift in Sources */,
 				E2B625F229E9BED1005807E6 /* StaticLabelTutorialTopicView.swift in Sources */,
 				E2B625F029E9BDBF005807E6 /* TutorialTopic.swift in Sources */,
 				E2E6970A29C197D300E0F83F /* OrderView.swift in Sources */,
