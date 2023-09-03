@@ -31,6 +31,7 @@
 		E2D4680A29E7BD0F00BBD14E /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D4680929E7BD0F00BBD14E /* Favorites.swift */; };
 		E2D8583729EBB64100B25E94 /* TextStylingTutorialTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D8583629EBB64100B25E94 /* TextStylingTutorialTopicView.swift */; };
 		E2E6970A29C197D300E0F83F /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E6970929C197D300E0F83F /* OrderView.swift */; };
+		E2FDFD042AA444BD0039C8F0 /* TextSpacingTutorialTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FDFD032AA444BD0039C8F0 /* TextSpacingTutorialTopicView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		E2D4680929E7BD0F00BBD14E /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 		E2D8583629EBB64100B25E94 /* TextStylingTutorialTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStylingTutorialTopicView.swift; sourceTree = "<group>"; };
 		E2E6970929C197D300E0F83F /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		E2FDFD032AA444BD0039C8F0 /* TextSpacingTutorialTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSpacingTutorialTopicView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				E2CD22B929F4D4CC003A4E69 /* AttributedStringTutorialTopicView.swift */,
 				E2BDE39D2A2F01E000FA51B0 /* MultilineTextAlignmentTopicView.swift */,
 				E2C07FCC2A42C4B900B4EF9F /* TextViewFormattingTutorialTopicView.swift */,
+				E2FDFD032AA444BD0039C8F0 /* TextSpacingTutorialTopicView.swift */,
 			);
 			path = Topics;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E298E4DD29E707AF003BD38D /* FavoritesView.swift in Sources */,
+				E2FDFD042AA444BD0039C8F0 /* TextSpacingTutorialTopicView.swift in Sources */,
 				E2B625EE29E9BD26005807E6 /* TutorialFactory.swift in Sources */,
 				E26125A129BDA50E0000BE9C /* Order.swift in Sources */,
 				E21AE36629C2D51E00752446 /* MainView.swift in Sources */,
