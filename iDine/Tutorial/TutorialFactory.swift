@@ -14,7 +14,8 @@ protocol TutorialFactoryProtocol {
 struct TutorialFactory: TutorialFactoryProtocol {
     var sections: [TutorialSection] {
         [
-            staticTextSection
+            staticTextSection,
+            othersSection
         ]
     }
 
@@ -33,7 +34,7 @@ struct TutorialFactory: TutorialFactoryProtocol {
 
     private var othersSection: TutorialSection {
         let items: [TutorialTopic] = [
-            TutorialTopic(title: "Creating a RemoteImage to load images from the web", content: StaticLabelTutorialTopicView())
+            TutorialTopic(title: "Creating a RemoteImage to load images from the web", content: RemoteImageLoadTutorialTopicView())
         ]
         return TutorialSection(title: "Others", items: items)
     }
