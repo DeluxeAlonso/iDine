@@ -20,6 +20,7 @@
 		E298E4DD29E707AF003BD38D /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298E4DC29E707AF003BD38D /* FavoritesView.swift */; };
 		E2A9BDE929BE4955003645F7 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9BDE829BE4955003645F7 /* ItemRowView.swift */; };
 		E2A9BDEB29BE6513003645F7 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9BDEA29BE6513003645F7 /* ItemDetailView.swift */; };
+		E2B09BD52B6749E90093AF32 /* RemoteImageLoadTutorialTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B09BD42B6749E90093AF32 /* RemoteImageLoadTutorialTopicView.swift */; };
 		E2B625E829E9AFF3005807E6 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B625E729E9AFF3005807E6 /* TutorialView.swift */; };
 		E2B625EB29E9B1D9005807E6 /* TutorialSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B625EA29E9B1D9005807E6 /* TutorialSection.swift */; };
 		E2B625EE29E9BD26005807E6 /* TutorialFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B625ED29E9BD26005807E6 /* TutorialFactory.swift */; };
@@ -50,6 +51,7 @@
 		E298E4DC29E707AF003BD38D /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		E2A9BDE829BE4955003645F7 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		E2A9BDEA29BE6513003645F7 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		E2B09BD42B6749E90093AF32 /* RemoteImageLoadTutorialTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageLoadTutorialTopicView.swift; sourceTree = "<group>"; };
 		E2B625E729E9AFF3005807E6 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
 		E2B625EA29E9B1D9005807E6 /* TutorialSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialSection.swift; sourceTree = "<group>"; };
 		E2B625ED29E9BD26005807E6 /* TutorialFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialFactory.swift; sourceTree = "<group>"; };
@@ -139,6 +141,28 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		E2B09BD22B6749A90093AF32 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				E2B09BD42B6749E90093AF32 /* RemoteImageLoadTutorialTopicView.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		E2B09BD32B6749B10093AF32 /* StaticText */ = {
+			isa = PBXGroup;
+			children = (
+				E2B625F129E9BED1005807E6 /* StaticLabelTutorialTopicView.swift */,
+				E2D8583629EBB64100B25E94 /* TextStylingTutorialTopicView.swift */,
+				E2CD22B929F4D4CC003A4E69 /* AttributedStringTutorialTopicView.swift */,
+				E2BDE39D2A2F01E000FA51B0 /* MultilineTextAlignmentTopicView.swift */,
+				E2C07FCC2A42C4B900B4EF9F /* TextViewFormattingTutorialTopicView.swift */,
+				E2FDFD032AA444BD0039C8F0 /* TextSpacingTutorialTopicView.swift */,
+				E2FDFD052AA44CE00039C8F0 /* DateFormattingInsideTextViewTutorialTopic.swift */,
+			);
+			path = StaticText;
+			sourceTree = "<group>";
+		};
 		E2B625E929E9B191005807E6 /* Tutorial */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,14 +177,9 @@
 		E2B625EC29E9BC02005807E6 /* Topics */ = {
 			isa = PBXGroup;
 			children = (
+				E2B09BD32B6749B10093AF32 /* StaticText */,
+				E2B09BD22B6749A90093AF32 /* Others */,
 				E2B625EF29E9BDBF005807E6 /* TutorialTopic.swift */,
-				E2B625F129E9BED1005807E6 /* StaticLabelTutorialTopicView.swift */,
-				E2D8583629EBB64100B25E94 /* TextStylingTutorialTopicView.swift */,
-				E2CD22B929F4D4CC003A4E69 /* AttributedStringTutorialTopicView.swift */,
-				E2BDE39D2A2F01E000FA51B0 /* MultilineTextAlignmentTopicView.swift */,
-				E2C07FCC2A42C4B900B4EF9F /* TextViewFormattingTutorialTopicView.swift */,
-				E2FDFD032AA444BD0039C8F0 /* TextSpacingTutorialTopicView.swift */,
-				E2FDFD052AA44CE00039C8F0 /* DateFormattingInsideTextViewTutorialTopic.swift */,
 			);
 			path = Topics;
 			sourceTree = "<group>";
@@ -258,6 +277,7 @@
 				E2D4680A29E7BD0F00BBD14E /* Favorites.swift in Sources */,
 				E26125A229BDA50E0000BE9C /* Menu.swift in Sources */,
 				E261259029BDA4690000BE9C /* iDineApp.swift in Sources */,
+				E2B09BD52B6749E90093AF32 /* RemoteImageLoadTutorialTopicView.swift in Sources */,
 				E2CD22BA29F4D4CC003A4E69 /* AttributedStringTutorialTopicView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

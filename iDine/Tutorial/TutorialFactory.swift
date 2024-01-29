@@ -30,4 +30,11 @@ struct TutorialFactory: TutorialFactoryProtocol {
         ]
         return TutorialSection(title: "Working with static text", items: items)
     }
+
+    private var othersSection: TutorialSection {
+        let items: [TutorialTopic] = [
+            TutorialTopic(title: "Creating a RemoteImage to load images from the web", content: StaticLabelTutorialTopicView())
+        ]
+        return TutorialSection(title: "Others", items: items)
+    }
 }
