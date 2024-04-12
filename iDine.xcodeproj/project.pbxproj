@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E21AE36629C2D51E00752446 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21AE36529C2D51E00752446 /* MainView.swift */; };
+		E2231C942BC8F2A000F529D7 /* FlipCardEffectTutorialTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2231C932BC8F2A000F529D7 /* FlipCardEffectTutorialTopicView.swift */; };
 		E261259029BDA4690000BE9C /* iDineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261258F29BDA4690000BE9C /* iDineApp.swift */; };
 		E261259229BDA4690000BE9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261259129BDA4690000BE9C /* ContentView.swift */; };
 		E261259429BDA46A0000BE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E261259329BDA46A0000BE9C /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		E21AE36529C2D51E00752446 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E2231C932BC8F2A000F529D7 /* FlipCardEffectTutorialTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCardEffectTutorialTopicView.swift; sourceTree = "<group>"; };
 		E261258C29BDA4690000BE9C /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E261258F29BDA4690000BE9C /* iDineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineApp.swift; sourceTree = "<group>"; };
 		E261259129BDA4690000BE9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				E2B09BD42B6749E90093AF32 /* RemoteImageLoadTutorialTopicView.swift */,
+				E2231C932BC8F2A000F529D7 /* FlipCardEffectTutorialTopicView.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			files = (
 				E298E4DD29E707AF003BD38D /* FavoritesView.swift in Sources */,
 				E2FDFD042AA444BD0039C8F0 /* TextSpacingTutorialTopicView.swift in Sources */,
+				E2231C942BC8F2A000F529D7 /* FlipCardEffectTutorialTopicView.swift in Sources */,
 				E2B625EE29E9BD26005807E6 /* TutorialFactory.swift in Sources */,
 				E26125A129BDA50E0000BE9C /* Order.swift in Sources */,
 				E21AE36629C2D51E00752446 /* MainView.swift in Sources */,

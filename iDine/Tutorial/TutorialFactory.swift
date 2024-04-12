@@ -27,14 +27,15 @@ struct TutorialFactory: TutorialFactoryProtocol {
             TutorialTopic(title: "How to adjust text alignment using multilineTextAlignment()", content: MultilineTextAlignmentTopicView()),
             TutorialTopic(title: "How to format text inside text views", content: TextViewFormattingTutorialTopicView()),
             TutorialTopic(title: "How to add spacing between letters in text", content: TextSpacingTutorialTopicView()),
-            TutorialTopic(title: "How to format dates inside text views", content: DateFormattingInsideTextViewTutorialTopic())
+            TutorialTopic(title: "How to format dates inside text views", content: DateFormattingInsideTextViewTutorialTopic()),
         ]
         return TutorialSection(title: "Working with static text", items: items)
     }
 
     private var othersSection: TutorialSection {
         let items: [TutorialTopic] = [
-            TutorialTopic(title: "Creating a RemoteImage to load images from the web", content: RemoteImageLoadTutorialTopicView())
+            TutorialTopic(title: "Creating a RemoteImage to load images from the web", content: RemoteImageLoadTutorialTopicView()),
+            TutorialTopic(title: "Creating a FlipView to provide a card flip effect", content: FlipCardEffectTutorialTopicView()),
         ]
         return TutorialSection(title: "Others", items: items)
     }
