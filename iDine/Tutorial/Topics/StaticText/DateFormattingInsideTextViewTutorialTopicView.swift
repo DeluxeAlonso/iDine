@@ -1,5 +1,5 @@
 //
-//  DateFormattingInsideTextViewTutorialTopic.swift
+//  DateFormattingInsideTextViewTutorialTopicView.swift
 //  iDine
 //
 //  Created by Alonso on 3/09/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DateFormattingInsideTextViewTutorialTopic: View {
+struct DateFormattingInsideTextViewTutorialTopicView: View {
     var body: some View {
         VStack {
             Text(Date.now.addingTimeInterval(600), style: .date)
@@ -20,6 +20,6 @@ struct DateFormattingInsideTextViewTutorialTopic: View {
 
 struct DateFormattingInsideTextViewTutorialTopic_Previews: PreviewProvider {
     static var previews: some View {
-        DateFormattingInsideTextViewTutorialTopic()
+        DateFormattingInsideTextViewTutorialTopicView()
     }
 }

@@ -27,7 +27,8 @@ struct TutorialFactory: TutorialFactoryProtocol {
             TutorialTopic(title: "How to adjust text alignment using multilineTextAlignment()", content: MultilineTextAlignmentTopicView()),
             TutorialTopic(title: "How to format text inside text views", content: TextViewFormattingTutorialTopicView()),
             TutorialTopic(title: "How to add spacing between letters in text", content: TextSpacingTutorialTopicView()),
-            TutorialTopic(title: "How to format dates inside text views", content: DateFormattingInsideTextViewTutorialTopic()),
+            TutorialTopic(title: "How to format dates inside text views", content: DateFormattingInsideTextViewTutorialTopicView()),
+            TutorialTopic(title: "How to make TextField uppercase or lowercase using textCase()", content: TextFieldCaseTutorialTopicView()),
         ]
         return TutorialSection(title: "Working with static text", items: items)
     }
