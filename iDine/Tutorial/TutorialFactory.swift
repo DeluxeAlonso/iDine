@@ -29,6 +29,7 @@ struct TutorialFactory: TutorialFactoryProtocol {
             TutorialTopic(title: "How to add spacing between letters in text", content: TextSpacingTutorialTopicView()),
             TutorialTopic(title: "How to format dates inside text views", content: DateFormattingInsideTextViewTutorialTopicView()),
             TutorialTopic(title: "How to make TextField uppercase or lowercase using textCase()", content: TextFieldCaseTutorialTopicView()),
+            TutorialTopic(title: "How to show text and an icon side by side using Label", content: LabelIconAndTextTutorialView()),
         ]
         return TutorialSection(title: "Working with static text", items: items)
     }
